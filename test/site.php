@@ -6,7 +6,7 @@
 </head>
 <body>
     <h2>Addition : </h2>
-    <form action="site.php" method="get">
+    <form action="site.php" method="post">
         <input type="number" name="num1">
         <br>
         <input type="number" name="num2">
@@ -14,7 +14,7 @@
     </form>
 
     <?php 
-    echo  $_GET["num1"] + $_GET["num2"];
+    echo  $_POST["num1"] + $_POST["num2"];
     ?>
 
 </body>
