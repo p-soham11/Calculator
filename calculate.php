@@ -7,8 +7,9 @@
 <body>
     <h2>Calculator :</h2>
     <form action="calculate.php" method="post">
-        First Number : <input type="number" name="num1"><br><br>
-        
+        First Number : <input type="number" step="0.001" name="num1"><br><br>
+        <!-- step is used to deal with decimals  -->
+
         <label> Select Operator </label>  
             <select name="op">
                 <option value = "add"> + Addition</option>  
@@ -18,7 +19,7 @@
                 <option value = "power"> ^ Power</option>
             </select>
         <br><br>
-        Second Number : <input type="number" name="num2"><br><br>  
+        Second Number : <input type="number" step="0.001" name="num2"><br><br>  
         <input type="submit" value="Calculate">
     </form>
 
