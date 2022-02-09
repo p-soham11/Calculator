@@ -12,6 +12,7 @@
 
         <label> Select Operator </label>  
             <select name="op">
+                <!-- Options for Dropdown Menu -->
                 <option value = "add"> + Addition</option>  
                 <option value = "sub"> - Substraction</option>  
                 <option value = "mult"> * Multiplication</option>  
